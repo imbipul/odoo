@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Custom POS",
+    'name': "Custom POS Keyboard Shortcut",
     'summary': """
-        Customized Point of Sale
+        Customized Point of Sale layout and keyboard shortcuts for desktop users
     """,
     'description': """
-        Customized Point of Sale
+        Customized Point of Sale layout and keyboard shortcuts for desktop users
     """,
     'author': "Abdullah Al Arafat Bipul",
     'website': "http://www.scorpion9.com",
@@ -20,15 +20,12 @@
     'data': [
         # 'security/ir.model.access.csv',
         'views/assets.xml',
-        'views/views.xml',
-        'views/templates.xml',
     ],
     'qweb': [
         'static/src/xml/pos.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
-        'demo/demo.xml',
     ],
     'installable': True,
     'auto_install': False,
